@@ -1,0 +1,102 @@
+# Duplicate any material with this script by equipping your bow and hitting D-Pad Up to get to your combine material UI then select which material you want to duplicate. After exiting, run the script.
+
+# Notes
+# If this script doesn't work initially, trying waiting a bit since this script's performance is dependant on the FPS drops of the location you're in
+# The glitch seems to work best when you're in Kakariko village looking a bit up at the sky as that's probably where the FPS drops
+# This script is mostly self correcting so if there's a missing input just wait it out unless the following happens
+# In very rare circumstances, due to lag and changes in FPS, the script could accidentally consume items. I don't recommend running this script without supervision.
+# You must take full responsibility for this script knowing the risks mentioned above
+
+# TODO
+# There are opportunities to make this script faster at the expense of higher rates of missed inputs or increasing timed inputs for higher chances of input recognition
+# There's definitely a balance threshold between these two
+
+# Exit menu if in menu
++5-15 KEY_B
+
+# Go to menu
++5-15 KEY_PLUS
+
+# [Inside menu] Reset menu to bow section
++5-30 KEY_L
++5-5 KEY_R
+
+# [Inside menu] Remove bow or equip 2nd slot bow
++5-30 KEY_DUP
++5-30 KEY_DLEFT
++5-5 KEY_DRIGHT
++5-5 KEY_A
++5-5 KEY_A
+
+# [Inside menu] Exit menu
++5-15 KEY_PLUS
+
+# Number of times you want to duplicate your item
+99x{
+  # Go to menu
+  +5-15 KEY_PLUS
+
+  # [Inside menu] Reset to first bow slot position
+  +5-30 KEY_DUP
+  +5-30 KEY_DLEFT
+
+  # [Inside menu] Equip the bow that's in the first slot
+  +5-5 KEY_A
+  +5-5 KEY_A
+
+  # [Inside menu] Exit menu
+  +5-15 KEY_PLUS
+
+  # Reset to not hold a bow so you don't fire an arrow by accident
+  +5-5 KEY_B
+  
+  # Hold the bow
+  +5-5 KEY_ZR
+
+  # Combine material to arrow
+  +5-60 KEY_DUP
+
+  # Go to menu
+  +60-15 KEY_PLUS
+
+  # [Inside menu] Drop bow
+  +5-5 KEY_A
+  +5-5 KEY_DDOWN
+  +5-5 KEY_A
+
+  # [Inside menu] Equip bow in second slot
+  +5-5 KEY_DRIGHT
+  +5-5 KEY_A
+  +5-5 KEY_A
+  
+  # [Inside menu] Close the menu and reopen it fast
+  +10-5 KEY_PLUS
+  +5-15 KEY_PLUS
+
+  # [Inside menu] Drop your bow
+  +5-5 KEY_DLEFT
+  +5-5 KEY_A
+  +5-5 KEY_DDOWN
+  +5-5 KEY_A
+
+  # [Inside menu] Exit menu
+  +5-15 KEY_PLUS
+
+  # Move around vertically to pick up bows
+  +5-5 NONE 0;30000
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 NONE 0;-30000
+  +5-5 KEY_A
+  +5-5 KEY_A
+
+  # Move around horizontally to pick up bows
+  +5-5 NONE 30000;0
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 NONE -30000;0
+  +5-5 KEY_A
+  +5-5 KEY_A
+
+  # Back at the starting position
+}

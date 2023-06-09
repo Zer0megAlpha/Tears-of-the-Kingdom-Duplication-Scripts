@@ -1,0 +1,3 @@
+# Open and close the menu fast 
+10-5 KEY_PLUS
+5-15 KEY_PLUS

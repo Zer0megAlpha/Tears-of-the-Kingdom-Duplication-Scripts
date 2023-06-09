@@ -1,0 +1,44 @@
+# Duplicate materials using the holding/midair glitch
+# Have your menu selection set to materials and hover over the material you wish to duplicate. Exit your item menu. Then run this script.
+
+# Notes
+# It's better to run this script on a loop since we can't run nested loops in the script.
+# Joy-Con Droid TAS has a settings button where the "Should loop" setting is. Just have that checked.
+
+# Jump into the air
++0-5 KEY_X
++0-10 KEY_ZL;KEY_A
+
+# Enter menu
++10-10 KEY_PLUS
+
+# Select item to hold
++10-5 KEY_A
++10-5 KEY_DDOWN
+
+# Hold 5 items
+5x{
+  +5-5 KEY_A
+}
+
+# Exit menu
++10-5 KEY_Y;KEY_B
+
+# Move around vertically to pick up items
+3x{
+  +5-5 KEY_A
+}
++5-4 KEY_A 0;-30000
+3x{
+  +5-5 KEY_A
+}
+
+# Move around horizontally to pick up items
++5-4 KEY_A 30000;0
+3x{
+  +5-5 KEY_A
+}
++5-4 KEY_A -30000;0
+3x{
+  +5-5 KEY_A
+}

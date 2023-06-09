@@ -1,0 +1,31 @@
+# Duplicate any zone part with this script by hovering over your selected material in the zonai material UI.
+# After exiting, face a wall with just enough space for the glitch to work properly and run the script.
+
+# Enter menu
++10-10 KEY_PLUS
+
+# Loop over 9X (where 9X means 9 * 10 times so 90 dupes) number of duplicated zonai parts you wish to duplicate
+9x{
+  # Take out device
+  +5-5 KEY_A
+  +5-5 KEY_A
+
+  # Add 10 items to the pool
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 KEY_A
+  +5-5 KEY_A
+
+  # Exit the menu using the glitched exit input
+  +10-5 KEY_Y;KEY_B
+  +75-5 KEY_PLUS
+}
+
+# Finish by exiting menu if there was a misinput
++15-5 KEY_B

@@ -10,7 +10,7 @@ Run duplicate_materials.txt if you want to use the old duping method before the 
 Run the duplicate_zonai.txt if you want to dupe all the zonai parts your little engineering hearts crave.
 
 # Fast Duplicate Materials x20
-Run the fast_duplicate_materials_x20.txt if you want the latest and greatest way to duplicate items. It takes a little setup but it's worth it because compared to the x5 script, you don't waste any shield durability and it's faster.
+Run the fast_duplicate_materials_x20.txt if you want the latest and greatest way to duplicate items. It takes a little setup but it's worth it because compared to the x5 script, you don't waste any shield durability and it's faster. Only tradeoff is that you need to be in a low gravity environment.
 
 # Fast Duplicate Materials x5
 Run the fast_duplicate_materials_x5.txt if you want the easiest method to start duplicating items. You will have to exchange 5 duped items for 1 shield durability. That's the only tradeoff.

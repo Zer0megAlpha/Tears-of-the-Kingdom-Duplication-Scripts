@@ -15,5 +15,5 @@ Run the fast_duplicate_materials_x20.txt if you want the latest and greatest way
 # Fast Duplicate Materials x5
 Run the fast_duplicate_materials_x5.txt if you want the easiest method to start duplicating items. You will have to exchange 5 duped items for 1 shield durability. That's the only tradeoff.
 
-
+# How to run these scripts
 To use these scripts, once you've connected your Joy-Con Droid to your switch, select the TAS UI from "Select Custom UI" then load the script of choice and click run.

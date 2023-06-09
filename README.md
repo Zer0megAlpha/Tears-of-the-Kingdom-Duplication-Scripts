@@ -4,7 +4,7 @@ This repo holds scripts designed to run on The Legend of Zelda Tears of the King
 Building stuff in this game is fun but the grind for materials is annoying if you just want to build cool stuff. That's why I created these scripts to automate the process of duplicating items. I figured others might make use of this.
 
 # Duplicate Materials
-Run duplicate_materials.txt if you want to use the old duping method before the holding midair glitch was discovered. It's slower but potentially useful.
+Run duplicate_materials.txt if you want to use the old duping method (where you quickly leave the menu then enter the menu again) before the holding midair glitch was discovered. It's slower but potentially useful.
 
 # Duplicate Zonai Parts
 Run the duplicate_zonai_parts.txt if you want to dupe all the zonai parts your little engineering hearts crave.

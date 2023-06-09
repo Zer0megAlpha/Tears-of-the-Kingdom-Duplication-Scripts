@@ -1,5 +1,5 @@
 # Tears-of-the-Kingdom-Duplication-Scripts
-This repo holds scripts designed to run on The Legend of Zelda Tears of the Kingdom. These scripts are loaded in through Joy-Con Droid and only work up to version 1.1.1
+This repo holds scripts designed to run on The Legend of Zelda Tears of the Kingdom. These scripts are loaded in through Joy-Con Droid TAS UI and only work up to version 1.1.1
 
 Building stuff in this game is fun but the grind for materials is annoying if you just want to build cool stuff. That's why I created these scripts to automate the process of duplicating items. I figured others might make use of this.
 

@@ -11,8 +11,7 @@
 
 # Jump into the air
 +0-10 KEY_X
-+10-10 KEY_ZL
-+0-10 KEY_ZL;KEY_A
++10-10 KEY_X
 
 # Enter menu
 +10-10 KEY_PLUS
